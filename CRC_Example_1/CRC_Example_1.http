@@ -1,0 +1,15 @@
+@CRC_Example_1_HostAddress = https://localhost:7245
+
+GET {{CRC_Example_1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{CRC_Example_1_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  //Product
+}
+
+###
