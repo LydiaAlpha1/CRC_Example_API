@@ -262,7 +262,7 @@ INSERT INTO Products (Name, Price) VALUES
 
 **Both the API and the MVC should be set to run in parallel. If not simply go to configure startup project and mark multiply project start and select both the MVC and Example\_1 for the API.** 
 
-**Both the MVC and Example\_1 api should open with the SLN file.** 
+**Both the MVC and Example\_1 api open with the SLN file. There should be 2 projects in the solution window.** 
 
 
 **Replace the placeholder connect string with the proper connection to a SQL database.**
@@ -280,6 +280,7 @@ INSERT INTO Products (Name, Price) VALUES
 
 
 **Once the SQL script has populated the database. Running the program from Visual studio two terminals will launch one for the MVC and the other with the API. The API will with the tag /api/Products will pull all products. Appending a number will pull using the product ID. A browser will launch with the a small MVC with a Products Tab that will call the products table as well.** 
+
 
 
 
