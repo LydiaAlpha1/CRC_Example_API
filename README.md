@@ -1,4 +1,4 @@
-PACKAGES INSTALLED:
+#PACKAGES INSTALLED:
 
 Visual studio 2022 IDE
 .NET version 9.09
@@ -6,22 +6,22 @@ Entity Framework SQL/TOOLS/DESIGN/CORE
 ASP.NET Core NewtonsoftJson/OpenAPI
 Microsoft SQL server/manager
 
-ASSUMPTIONS:
+#ASSUMPTIONS:
 
 Used the Postman App for an API interface for visuals.
 Established mock SQL database with DBMS Microsoft Server Manager.
 Scripts for GET/PUT/POST/DELETE/ 
 
-SQL SCRIPTS:
+#SQL SCRIPTS:
 
-//Not need as the migration class will handle the table implementation.
+##//Not need as the migration class will handle the table implementation.
 CREATE TABLE Products (
 Id INT PRIMARY KEY,
 Name NVARCHAR(100),
 Price DECIMAL(10,2),
 );
 
-//Use this to populate database.
+##//Use this to populate database.
 INSERT INTO Products (Name, Price) VALUES
 ('Wireless Mouse', 19.99),
 ('Bluetooth Speaker', 49.50),
@@ -124,7 +124,7 @@ INSERT INTO Products (Name, Price) VALUES
 ('Plush Toy', 19.99),
 ('Toy Drone', 69.99);
 
-Setup:
+#Setup:
 
 Replace the placeholder connect string with the proper connection to a SQL database.
 
