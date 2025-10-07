@@ -1,3 +1,5 @@
+### **Packages:**
+
 Visual studio 2022 IDE
 
 .NET version 9.09
@@ -278,6 +280,7 @@ INSERT INTO Products (Name, Price) VALUES
 
 
 **Once the SQL script has populated the database. Running the program from Visual studio two terminals will launch one for the MVC and the other with the API. The API will with the tag /api/Products will pull all products. Appending a number will pull using the product ID. A browser will launch with the a small MVC with a Products Tab that will call the products table as well.** 
+
 
 
 
